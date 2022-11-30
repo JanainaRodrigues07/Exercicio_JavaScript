@@ -11,6 +11,4 @@ function calcularMDC(valor1, valor2) {
     return valor1;   
 };
 
-var resultado = calcularMDC(18, 60);
-        
-console.log("MDC = " + resultado);
+module.exports = { calcularMDC };

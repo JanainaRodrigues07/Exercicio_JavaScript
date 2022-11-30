@@ -1,41 +1,41 @@
-const numeros = [2, 6, 1, 4, 9];
-let a = numeros[0];
-let menor;
-let maior;
+function valorMenor(x, y, z) {
+    let menor;
 
-for (let index = 0; index < numeros.length; index++) {
-    let b = numeros[index];
+        if (x < y) {
+            menor = x;
+        } else {
+            menor = y
+        } x = menor;
 
-    if (a < b) {
-        menor = a;
+        if (x < z) {
+            menor = x;
+        } else {
+            menor = z
+        }
+
+    return menor;
+};
+    
+
+function valorMaior(x, y, z) {
+    let maior;
+
+    if (x > y) {
+        maior = x;
     } else {
-        menor = b
-    } a = menor;
+        maior = y
+    } x = maior;
 
+    if (x > z) {
+        maior = x;
+    } else {
+        maior = z
+    }
+
+    return maior;
 };
 
-var resultado = a;
-
-console.log("Menor índice = " + resultado);
-
-
-for (let index = 0; index < numeros.length; index++) {
-    let b = numeros[index];
-
-    if (a > b) {
-        maior = a;
-    } else {
-        maior = b
-    } a = maior;
-
-};
-
-var resultado = a;
-
-console.log("Maior índice = " + resultado);
-
-
-
+module.exports = { valorMenor, valorMaior };
 
 
 

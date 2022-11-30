@@ -1,0 +1,23 @@
+{
+  "name": "exercicio_javascript",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000x\u0000e\u0000r\u0000c\u0000i\u0000c\u0000i\u0000o\u0000_\u0000J\u0000a\u0000v\u0000a\u0000S\u0000c\u0000r\u0000i\u0000p\u0000t\u0000\r\u0000 \u0000",
+  "main": "MDC.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanainaRodrigues07/Exercicio_JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JanainaRodrigues07/Exercicio_JavaScript/issues"
+  },
+  "homepage": "https://github.com/JanainaRodrigues07/Exercicio_JavaScript#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
